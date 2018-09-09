@@ -1,0 +1,9 @@
+﻿alarmType,description,severity,action,category,transport
+NETUSER,Usage of deceptive credentials was detected,low,blocked,user,tcp
+ExternalNetUser,NTLM brute force attack was detected,high,blocked,user,tcp
+NetComputer,An attempt to connect to ta deceptive asset was detected,low,blocked,computer,tcp
+CredOTH,An attempt to Overpass-The-Hash of deceptive credentials in memory was detected ,high,blocked,user,tcp
+CredPTH,An attempt to Pass-The-Hash of deceptive credentials in memory was detected ,high,blocked,user,tcp
+CredPTT,An attempt to Pass-The-Ticket of deceptive credentials in memory was detected,high,blocked,user,tcp
+DCSync,A suspicious attempt to sync users' password was detected ,high,blocked,domain,tcp
+PLDAP,An untrusted LDAP bind was detected,high,blocked,domain,tcp
